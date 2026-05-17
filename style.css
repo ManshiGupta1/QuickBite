@@ -839,11 +839,71 @@ label{
     }
 
 }
-@media (max-width:768px){
+
+
+/* MOBILE FIX */
+
+@media screen and (max-width:768px){
 
     .box{
+        display: flex;
         flex-direction: column;
-        top: 75px;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+
+        padding: 20px;
+
+        height: auto;
+
+        position: static;
+        width: 100%;
+    }
+
+    .box h2{
+        font-size: 32px !important;
+
+        text-align: center;
+
+        margin: 0;
+
+    }
+
+    .foodtabs{
+        width: 100%;
+    }
+
+    .foodtabs ul{
+        display: flex !important;
+
+        flex-direction: row !important;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 10px;
+
+        padding: 0;
+
+        margin: 0;
+    }
+
+    .foodtabs ul li{
+        list-style: none;
+    }
+
+    .foodtabs ul li a{
+        width: auto !important;
+
+        display: inline-block;
+
+        padding: 10px 16px;
+
+        font-size: 14px;
+
+        border-radius: 25px;
     }
 
 }
