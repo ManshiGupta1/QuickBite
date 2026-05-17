@@ -1,0 +1,849 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#4B1639;
+    padding:20px 60px;
+    position: sticky;
+     top: 0;
+
+    z-index: 1000;
+
+}
+
+
+.navdiv{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo a{
+    text-decoration:none;
+    color:white;
+    font-size:70px;
+    font-family:"Yeseva One", serif;
+}
+
+.navdiv ul{
+    display:flex;
+    gap:30px;
+}
+
+.navdiv li{
+    list-style:none;
+}
+
+.navdiv li a{
+    text-decoration:none;
+    color:white;
+    background:#852E4E;
+    padding:10px 22px;
+    border-radius:30px;
+    font-size:22px;
+    font-family:"Playfair", serif;
+    transition:0.3s;
+}
+
+.navdiv li a:hover{
+    background:#a53d63;
+}
+
+/* HERO SECTION */
+
+.hero{
+    background:linear-gradient(to right,#FFF4E1,#FFC857);
+    min-height:400px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+
+    padding:20px 70px;
+    gap: 20px;
+}
+
+/* LEFT SIDE */
+
+.hero_text{
+    width:45%;
+}
+
+.hero_chips1{
+    background:#FFC857;
+    width:fit-content;
+
+    padding:10px 25px;
+    border-radius:30px;
+
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+.heroheading h1{
+    font-size:95px;
+    line-height:1.05;
+
+    font-family:"Luckiest Guy", cursive;
+    font-weight:400;
+
+    margin-bottom:10px;
+}
+
+.herodiscription p{
+    font-size:28px;
+    line-height:1.5;
+
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+.hero_chips2{
+    background:#FF5A1F;
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 32px;
+    border-radius:30px;
+
+    font-size:26px;
+
+    display:inline-block;
+}
+
+/* RIGHT SIDE */
+
+.hero_img{
+    width:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.hero_img img{
+    width:100%;
+    max-width:850px;
+    height:auto;
+}
+.menusection{
+    background-color: #4B1639;
+}
+.offersection{
+    background: #fff4e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.offertitle{
+    background-color: #4B1639;
+    padding: 20px;
+    color: white;
+}
+.offertitle p{
+    font-family: 'cause';
+    text-align: center;
+}
+.offercards-container{
+    overflow-x: auto;
+}
+.category{
+    border-radius: 25px;
+padding: 30px;
+background: #fff4e1;
+}
+.menutitle{
+    color: white;
+    font-family:"Yeseva One", serif;
+    text-align: center;
+}
+.menusection p{
+    color: white;
+    font-family: 'cause';
+    text-align: center;
+}
+.menusection{
+    padding: 10px;
+}
+.engagemenet{
+    font-family:"Playfair", serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.about{
+    background-color: #fff4e1;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.abouthead{
+    font-family:"Yeseva One", serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.aboutus h3{
+     font-family:"Playfair", serif;
+     font-size: 30px;
+}
+.aboutus p{
+    font-family:'cause';
+}
+.foodtabs{
+    display: inline-block;
+}
+.box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    position: sticky;
+    top: 121px;
+
+    background-color: bisque;
+
+    z-index: 999;
+
+    width: 100%;
+    padding: 20px 30px;
+
+    border-radius: 20px;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.offertitle{
+    font-family:"Yeseva One", serif;
+    text-align: center;
+}
+.offersection p{
+    font-family: 'cause';
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+.discount{
+    font-family:"Luckiest Guy", cursive;
+    font-size: 25px;
+    color: #4B1639;
+}
+.offercard h2{
+    font-family:"Yeseva One", serif;
+    color: #852E4E;
+    text-align: center;
+}
+.offercard p{
+    font-family:"Playfair", serif;
+}
+.offercard h3{
+   font-family:"Yeseva One", serif;
+   font-size: 30px;
+    text-align: center; 
+}
+.offercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box h2{
+    font-family:"Yeseva One", serif;
+    font-size: 40px;
+}
+.foodtabs ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+}
+.foodtabs ul li{
+    list-style: none;
+}
+.foodtabs ul li a{
+    display: block;
+    padding: 12px 20px;
+    background-color: #8B2C5A;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.foodtabs li{
+    list-style:none;
+    background:#852E4E;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:22px;
+    font-family:"Playfair", serif;
+    transition:0.3s;
+}
+.foodtabs li a{
+    text-decoration: none;
+    color: white;
+}
+.foodtabs li:hover{
+    background:#a53d63;
+}
+.foodcards{
+    background: linear-gradient(
+        to bottom right,
+        #FFF4E1,
+        #FFC857
+    );
+    width: 250px;
+    height: 380;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+.foodcards:hover{
+    transform: translateY(-10px);
+}
+.foodcards img{
+    width: 230px;
+    height: 200px;
+
+    object-fit: contain;
+
+    margin-bottom: 15px;
+}
+.offercard{
+    background: linear-gradient(
+to bottom right,
+#FFE8D6,
+#FF7B54
+);
+    width: 250px;
+    height:250;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+#burgerfoodcontainer{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 25px;
+    padding: 30px;
+}
+
+.offercards-container{
+    display: flex;
+
+    overflow-x: auto;
+
+    scroll-behavior: smooth;
+
+    width: 100%;
+
+    padding: 20px;
+
+    gap: 25px;
+
+    margin-top: 10px;
+}
+
+.offercard{
+
+    width: 360px;
+
+    height: 250;
+
+    flex-shrink: 0;
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    background: linear-gradient(
+    to bottom right,
+    #FFE8D6,
+    #FF7B54
+    );
+
+    color: white;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+#Loaded_Fries{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 25px;
+    padding: 30px;
+}
+#Wraps{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 25px;
+    padding: 30px;
+}
+#Veggie{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 25px;
+    padding: 30px;
+}
+.foodcards h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.price{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.foodcards button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4e11;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.foodcards button:hover{
+    background-color: #ff7b00;
+}
+.cart_box{
+    background: linear-gradient(
+        to top right,
+        #FFF4E1,
+        #FFC857
+    );
+
+    width: 350px;
+    padding: 30px;
+
+    border-radius: 20px;
+    height:550;
+    margin: 20px;
+    border-radius: 30px;
+    
+}
+
+.cart_box h2{
+    font-family:"Yeseva One", serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+.cart-item p{
+    font-family:"Playfair", serif;
+}
+.cart-item span{
+    font-family:"Yeseva One", serif;
+
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 370px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.animation-box {
+    position: relative;
+}
+
+.video {
+    position: relative;
+}
+.videotext {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 10;
+    margin: 0;
+}
+
+/* base animation setup */
+.videotext h2 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s forwards;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+     font-family:"Yeseva One", serif;
+}
+
+/* first line */
+.line1 {
+    font-size: 28px;
+    font-weight: 700;
+    animation-delay: 2s;
+}
+
+/* second line */
+.line2 {
+    font-size: 22px;
+    animation-delay: 2s;
+}
+.motoline h2{
+    font-size: 70px;
+    margin: 30px;
+}
+.smallmoto{
+    font-size: 50px;
+     font-family: "Petemoss", cursive;
+     text-align: center;
+     color: #4B1639;
+}
+/* animation */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* TITLE SECTION */
+.contact-title{
+    background-color: #4B1639;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact-title p{
+    font-family: 'cause';
+}
+
+/* MAIN CONTAINER */
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background: #2b0f22;
+    color: white;
+    gap: 40px;
+}
+
+/* LEFT SIDE INFO */
+.contact-info{
+    width: 40%;
+}
+
+.contact-info h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.info-box{
+    background: rgba(255,255,255,0.08);
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+/* RIGHT FORM */
+.contact-form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-form textarea{
+    height: 120px;
+    resize: none;
+}
+
+.cart_box button{
+    padding: 12px;
+    background: #ff4e1a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.offercard button{
+    padding: 12px;
+    background: #ff4e1a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact-form button{
+    padding: 12px;
+    background: #ff4e1a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover{
+    background: #e63e10;
+}
+label{
+    font-size: 20px;
+
+}
+@media (max-width: 1024px) {
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero_text, .hero_img {
+        width: 100%;
+    }
+
+    .heroheading h1 {
+        font-size: 60px;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .navdiv ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 10px;
+    }
+
+    .logo a {
+        font-size: 40px;
+    }
+
+    .navdiv li a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .heroheading h1 {
+        font-size: 30px;
+    }
+
+    .herodiscription p {
+        font-size: 18px;
+    }
+
+    .hero_chips1,
+    .hero_chips2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .aboutus h3 {
+        font-size: 22px;
+    }
+
+    .offercard {
+        width: 280px;
+    }
+
+    .cart_box {
+        width: 90%;
+    }
+
+    .motoline h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .smallmoto {
+        font-size: 28px;
+    }
+    box{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .box h2{
+        font-size: 55px;
+        line-height: 1.2;
+    }
+
+    .foodtabs ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .foodtabs ul li{
+        list-style: none;
+    }
+
+    .foodtabs ul li a{
+        display: block;
+        padding: 12px 22px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+
+}
+@media (max-width: 480px) {
+
+    .heroheading h1 {
+        font-size: 32px;
+    }
+
+    .hero {
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    height: auto;
+    }
+    .herotext{
+    width: 100%;
+}
+.herotext h1{
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.herotext p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+    .navdiv {
+        flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    }
+
+    .navdiv ul {
+        flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    }
+
+    .foodcards {
+        width: 90%;
+    }
+
+    .offercard {
+        width: 90%;
+    }
+
+    .contact-title h1 {
+        font-size: 24px;
+    }
+
+    .contact-info h2 {
+        font-size: 28px;
+    }
+
+    .videotext h2 {
+        font-size: 18px;
+    }
+    .box{
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .box h2{
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .foodtabs ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .foodtabs ul li a{
+        width: 220px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+}
+@media (max-width:768px){
+
+    .box{
+        flex-direction: column;
+        top: 75px;
+    }
+
+}
